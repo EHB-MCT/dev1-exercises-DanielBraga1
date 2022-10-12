@@ -15,11 +15,14 @@ function drawbox() {
     context.rect(75, 275, 50, 50);
     context.stroke();
     
-    context.fillStyle - "black";
+    context.fillStyle = "black";
     context.fillRect (50, 325, 25, 25);
     context.fillRect (325, 50, 25, 25);
-    context.fillRect (125, 125, 150, 150);
     
     
     context.stroke();
+    context.fillRect (125, 125, 150, 150);
+
+
 }
+
