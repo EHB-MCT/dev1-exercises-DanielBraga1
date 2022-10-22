@@ -14,8 +14,8 @@ function draw() {
 function drawConcentricCircles() {
     context.fillStyle = "#AAAAAA";
     let i = 0;
-    while () {
-        let radius = ;
+    while (i <= 5) {
+        let radius = 150 - i * 25;
         //This fillAndStrokeCircle function does not exist yet!
         //Add it to the utils script:
         //The function draws the stroke of a circle AND fills it
