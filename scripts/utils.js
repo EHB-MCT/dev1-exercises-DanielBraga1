@@ -31,7 +31,7 @@ export function fillAndStrokeCircle(x, y, radius) {
 
 export function fillAndStrokeEllipse(x, y, rX, rY) {
     context.beginPath();
-    context.ellipse(x, y, rX, rY, Math.PI / 4, 0, 2 * Math.PI);
+    context.ellipse(x, y, rX, rY, 0, 0, 2 * Math.PI);
     context.stroke();
     context.fill();
 }
